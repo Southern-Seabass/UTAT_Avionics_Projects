@@ -159,7 +159,7 @@ A 10ms delay is used after triggering ADC conversions, which is sufficient for a
 
 ## Contributors
 
-Sebastian Southworth (Author)
+Sebastian Southworth (Author)  
 William Gomez (Editor)
 
 ## Acknowledgments

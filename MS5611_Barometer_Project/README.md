@@ -7,7 +7,7 @@ A lightweight C driver for the MS5611 barometric pressure and temperature sensor
 - STM32 microcontroller (tested on STM32L4 series)
 - MS5611 barometric pressure sensor
 - SPI interface
-- Optional: UART for debug output
+- Optional: UART for print function
 
 ## Pin Configuration
 
@@ -101,7 +101,7 @@ BaroData MS5611_Readings(MS5611_t *dev, MS5611_OSR_t osr);
 **Returns:** `BaroData` struct containing temperature, pressure, and altitude
 
 #### `MS5611_Print`
-Outputs formatted sensor data via UART for debugging.
+Outputs formatted sensor data via UART
 
 ```c
 void MS5611_Print(UART_HandleTypeDef *huart, BaroData data);
